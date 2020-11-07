@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.top{
+    height: 50px;
+    width: 100%;
+}
+.top li{
+	list-style: none;
+	display: inline-flex;
+	margin-left: 10px;
+}
+.top a{
+	color: red;
+	text-decoration: none;
+}
+.row{
+	height: 80vh;
+	width: 100%;
+	display: inline-flex;
+}
+.col-md-4{
+	height: 80vh;
+	width: 30%;
+}
+.bar img{
+    height: 30vh;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+h6{
+	margin-left: 60px;
+}
+#name{
+	height: 80vh;
+	width: 40%;
+}
+.para{
+	margin-top: 190px;
+	margin-left: 40px;
+	color: red;
+}
+.para1{
+	color: red;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.para2{
+	color: red;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.para3{
+	color: red;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.para4{
+	color: red;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.para5{
+	color: red;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.para6{
+	color: red;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+#head{
+	height: 80vh;
+	width: 30%;
+}
+.img{
+	height: 24vh;
+	width: 60%;
+}
+h5{
+	text-align: center;
+	opacity: 0.6;
+}
+h5 u{
+	color: red;
+}

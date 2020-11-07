@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+	margin-top: 60px;
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+li{
+	list-style: none;
+	float: right;
+	margin-right: 300px;
+}
+li a{
+	text-decoration: none;
+	color: red;
+}
+.row{
+	height: 30vh;
+	width: 100%;
+	display: inline-flex;
+}
+.col-md-3{
+	height: 15vh;
+	width: 8%;
+	margin-top: 250px;
+}
+.man img{
+	height: 15vh;
+	width: 100%;
+	margin-left: 140px;
+}
+.man1 img{
+	height: 15vh;
+	width: 100%;
+	margin-left: 170px;
+}
+.man2 img{
+	height: 15vh;
+	width: 100%;
+	margin-left: 200px
+}
+.man3 img{
+	height: 15vh;
+	width: 100%;
+	margin-left: 230px;
+}
+.man4 img{
+	height: 15vh;
+	width: 100%;
+	margin-left: 260px;
+}
+.man5 img{
+	height: 15vh;
+	width: 100%;
+	margin-left: 290px;
+}
+.man6 img{
+	height: 15vh;
+	width: 100%;
+	margin-left: 320px;
+}
+.man7 img{
+	height: 15vh;
+	width: 100%;
+	margin-left: 350px;
+}
+.man8 img{
+	height: 15vh;
+	width: 100%;
+	margin-left: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 700px){
+li{
+	margin-right: 50px;
+}
+.man img{
+	margin-left: 15px;
+}
+.man1 img{
+	margin-left: 15px;
+}
+.man2 img{
+	margin-left: 10px
+}
+.man3 img{
+	margin-left: 20px;
+}
+.man4 img{
+	margin-left: 40px;
+}
+.man5 img{
+	margin-left: 60px;
+}
+.man6 img{
+	margin-left: 80px;
+}
+.man7 img{
+	margin-left: 100px;
+}
+.man8 img{
+	margin-left: 120px;
+}
+}

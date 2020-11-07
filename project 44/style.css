@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.top{
+	height: 100vh;
+	width: 100%;
+	background: black;
+}
+.top img{
+	margin-top: 30px;
+	margin-left: 617px;
+	height: 300px;
+	width: 20%;
+}
+h1{
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+}
+p{
+	text-align: center;
+	color: #fff;
+}
+.row{
+	height: 42vh;
+	width: 100%;
+	display: inline-flex;
+}
+.col-lg-6{
+	height: 42vh;
+	width: 50%;
+}
+h3{
+	margin-left: 390px;
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+}
+.nav li{
+	text-align: center;
+	margin-left: 390px;
+	margin-top: 15px;
+	list-style: none;
+}
+.nav a{
+	color: #fff;
+}
+h4{
+	margin-left: 390px;
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+}
+.para{
+	margin-top: 15px;
+	text-align: center;
+	margin-left: 390px;
+	color: #fff;
+}
+#main{
+	height: 42vh;
+	width: 20%;
+}
+h2{
+	margin-top: 20px;
+	color: #fff;
+}
+
+
+@media(max-width: 700px){
+.top img{
+	width: 80%;
+	margin-left: 57px;
+}
+.nav li{
+	margin-left: 20px;
+}
+h3{
+	margin-left: 20px;
+}
+h4{
+	margin-left: 20px;
+}
+
+.nav li{
+	margin-left: 20px;
+}
+.para{
+	margin-left: 20px;
+}
+h2{
+	margin-top: 20px;
+}	
+}

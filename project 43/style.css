@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.nav{
+	height: 60px;
+	width: 100%;
+	margin-top: 60px;
+}
+.nav li{
+	list-style: none;
+	display: inline-flex;
+	margin-left: 40px;
+}
+.nav a{
+	text-decoration: none;
+	color: red;
+}
+.btn{
+	margin-left: 30px;
+	background: lightgray;
+	color: brown;
+	font-size: 24px;
+	border: 2px solid blue; 
+}
+.row{
+	height: 200px;
+	width: 100%;
+	display: inline-flex;
+}
+.col-md-3{
+	height: 200px;
+	width: 25%;
+	background: yellow;
+}
+.top img{
+	height: 200px;
+	width: 100%;
+}
+h1{
+	margin-top: 50px;
+	text-align: center;
+	color: blue;
+}

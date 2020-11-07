@@ -1,0 +1,258 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.nav{
+	height: 60px;
+	width: 100%;
+	background: black;
+}
+.nav li{
+	padding-top: 20px;
+	border-left: 2px solid red;
+	margin-left: 40px;
+	display: inline-flex;
+}
+.nav a{
+	color: #fff;
+	text-decoration: none;
+}
+.row{
+	height: 130px;
+	width: 100%;
+	display: inline-flex;
+}
+.col-lg-6{
+	height: 130px;
+	width: 80%;
+	background: yellow;
+}
+.top img{
+	height: 130px;
+	width: 100%;
+}
+#long{
+	height: 130px;
+	width: 20%;
+	background: red;
+}
+h2{
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+}
+#row{
+	width: 100%;
+	height: 71vh;
+	display: inline-flex;
+}
+.col-md-4{
+	background: gray;
+	height: 71vh;
+	width: 10%;
+}
+.header button{
+	padding-left: 10px;
+	padding-right: 10px;
+	background: lightyellow;
+	opacity: 0.6;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.header input{
+	margin-top: 10px;
+	border-bottom: none;
+	border-right: none;
+	width: 15%;
+	margin-left: 20px;
+}
+h4{
+	margin-left: 50px;
+	margin-top: 10px;
+	opacity: 0.7;
+	color: black;
+}
+.header li{
+	margin-top: 10px;
+	list-style: none;
+	margin-left: 50px;
+}
+.header a{
+	color: black;
+	opacity: 0.6;
+}
+h3{
+	margin-left: 46px;
+	margin-top: 10px;
+	opacity: 0.7;
+}
+#main{
+	border-left: 3px solid gray;
+	border-top: 3px solid gray;
+	border-bottom: 3px solid gray;
+	margin-left: 40px;
+	background: #fff;
+	height: 71vh;
+	width: 20%;
+	border-right: 3px solid gray;
+}
+h6{
+	color: #fff;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 30%;
+	background: black;
+}
+p{
+	text-align: center;
+}
+.foot li{
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.container {
+	margin-left: 130px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#large{
+	margin-left: 10px;
+	height: 68vh;
+	width: 30%;
+}
+h1{
+	margin-top: 30px;
+	color: #fff;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 30%;
+	background: black;
+}
+#last{
+	border-left: 3px solid gray;
+	border-top: 3px solid gray;
+	border-bottom: 3px solid gray;
+	background: #fff;
+	height: 71vh;
+	width: 20%;
+	border-right: 3px solid gray;
+}
+#first{
+	border-left: 3px solid gray;
+	border-top: 3px solid gray;
+	border-bottom: 3px solid gray;
+	background: #fff;
+	margin-left: 50px;
+	height: 71vh;
+	width: 32%;
+	border-right: 3px solid gray;
+}
+
+
+
+
+@media(max-width: 700px){
+.col-md-4{
+	background: gray;
+	height: 132vh;
+	width: 20%;
+}
+.header button{
+	margin-left: 2px;
+}
+.header input{
+	width: 40%;
+	margin-left: 2px;
+}
+h4{
+	margin-left: 5px;
+}
+.header li{
+	margin-left: 5px;
+}
+h3{
+	margin-left: 5px;
+}
+#main{
+	margin-left: 20px;
+	height: 132vh;
+}#last{
+	height: 132vh;
+}
+#first{
+	margin-left: 20px;
+	height: 132vh;
+}
+.container {
+	margin-left: 30px;
+}
+
+}

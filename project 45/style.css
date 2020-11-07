@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.row{
+	height: 100vh;
+	width: 100%;
+	display: inline-flex;
+}
+.col-lg-6{
+	height: 100vh;
+	width: 25%;
+}
+.nav li{
+	display: inline-flex;
+}
+h1{
+	color: #F81894;
+	margin-top: 20px;
+	font-family: 'Kaushan Script', cursive;
+}
+h1 span{
+	margin-left: 50px;
+}
+p{
+	text-align: center;
+}
+p span{
+	color: #F81894;
+}
+p{
+	margin-top: 30px;
+	text-align: center;
+}
+.para span{
+	color: #F81894;
+}
+.para{
+	margin-top: 35px;
+	text-align: center;
+}
+.para1 span{
+	color: #F81894;
+}
+.para1{
+	margin-top: 35px;
+	text-align: center;
+}
+.para2 span{
+	color: #F81894;
+}
+.para2{
+	margin-top: 35px;
+	text-align: center;
+}
+.para3 span{
+	color: #F81894;
+}
+.para3 {
+	margin-top: 35px;
+	text-align: center;
+}
+#long{
+	height: 100vh;
+	width: 75%;
+}
+.img img{
+	margin-top: 100px;
+	height: 80vh;
+	width: 100%;
+}

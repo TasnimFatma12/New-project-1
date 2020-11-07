@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.top{
+	height: 60px;
+	width: 100%;
+	background: purple;
+}
+h1{
+	padding-top: 10px;
+	text-align: center;
+	color: #fff;
+}
+.row{
+	height: 90px;
+	width: 100%;
+	display: inline-flex;
+}
+.col-md-4{
+	height: 90px;
+	width: 20%;
+	background: lightgray;
+}
+h5{
+	font-size: 18px;
+	margin-left: 30px;
+	padding-top: 10px;
+}
+#main{
+	height: 90px;
+	width: 60%;
+	background: lightgray;
+}
+.head li{
+	display: inline-flex;
+	list-style: none;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.header li{
+	margin-top: 20px;
+	display: inline-flex;
+	list-style: none;
+	margin-left: 30px;
+}
+.header a{
+	text-decoration: none;
+	color: black;
+}
+.head a{
+	text-decoration: none;
+	color: black;
+}
+#man{
+	height: 90px;
+	width: 20%;
+	background: lightgray;
+}
+.foot li{
+	list-style: none;
+	display: inline-flex;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.foot a{
+	text-decoration: none;
+	color: black;
+}
+#row{
+	height: 180px;
+	width: 100%;
+	display: inline-flex;
+}
+.col-lg-6{
+	height: 180px;
+	width: 35%;
+	background: #555555;
+}
+p{
+	padding-top: 10px;
+	margin-left: 30px;
+	color: gold;
+}
+.para{
+	margin-top: 1px;
+	margin-left: 30px;
+	color: silver;
+}
+#content{
+	height: 180px;
+	width: 65%;
+}
+.image img{
+	height: 180px;
+	width: 100%;
+}
+#row1{
+	height: 54vh;
+	width: 100%;
+	display: inline-flex;
+}
+.col-md-6{
+	height: 54vh;
+	width: 80%;
+	background: lightgray;
+}
+h2{
+	margin-left: 700px;
+	padding-top: 20px;
+	text-align: center;
+	color: #000080;
+}
+.para1{
+	margin-top: 20px;
+	margin-left: 700px;
+	text-align: center;
+	color: blue;
+}
+.para2{
+	margin-top: 20px;
+	margin-left: 700px;
+	text-align: center;
+	color: blue;
+}
+.para3{
+	margin-top: 20px;
+	margin-left: 700px;
+	text-align: center;
+	color: blue;
+}
+#large{
+	height: 54vh;
+	width: 20%;
+	background: lightgray;
+}
+.btn{
+	border: none;
+	background: gray;
+	padding-right: 152px;
+	padding-bottom: 10px;
+}
+
+
+
+@media(max-width: 700px){
+h2{
+	margin-left: 10px;
+}
+.para1{
+	margin-left: 10px;
+}
+.para2{
+	margin-left: 10px;
+}
+.para3{
+	margin-left: 10px;
+}
+#large{
+	height: 54vh;
+	width: 20%;
+	background: lightgray;
+}
+.btn{
+	padding-right: 1px;
+	padding-bottom: 10px;
+}
+}
